@@ -19,7 +19,7 @@ El asistente ayuda a distintos perfiles de usuarios:
 ## ⚙️ Guía de configuración
 
 ### Prompt principal
-El archivo [`prompts/base_prompt.txt`](./prompts/base_prompt.md) define las reglas generales de PlanazoGPT:
+El archivo [`prompts/base_prompt.md`](./prompts/base_prompt.md) define las reglas generales de PlanazoGPT:
 - Fuente principal: **Planes.pdf**  
 - Uso de **Expresiones Madrid.pdf** para dar un toque local y natural.  
 - Adaptación según parámetros del usuario:  
