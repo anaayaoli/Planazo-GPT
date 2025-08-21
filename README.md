@@ -19,7 +19,7 @@ El asistente ayuda a distintos perfiles de usuarios:
 ## ⚙️ Guía de configuración
 
 ### Prompt principal
-El archivo [`prompts/base_prompt.txt`](./prompts/base_prompt.txt) define las reglas generales de PlanazoGPT:
+El archivo [`prompts/base_prompt.txt`](./prompts/base_prompt.md) define las reglas generales de PlanazoGPT:
 - Fuente principal: **Planes.pdf**  
 - Uso de **Expresiones Madrid.pdf** para dar un toque local y natural.  
 - Adaptación según parámetros del usuario:  
@@ -38,7 +38,6 @@ El archivo [`prompts/base_prompt.txt`](./prompts/base_prompt.txt) define las reg
 3. **Usuario con preferencias generales**  
    → Ej. "Algo cultural". El bot guía hacia actividades concretas (teatro, exposiciones, etc.).
 
-Ejemplos completos están en [`examples/`](./examples/).
 
 ---
 
@@ -69,9 +68,5 @@ PlanazoGPT **no responde sobre**:
 - Adaptarse a la conversación previa evitando repeticiones.  
 - Finalizar cada turno con una **pregunta abierta** que anime a seguir conversando.  
 
----
 
-## 📚 Archivos de soporte
-- [`docs/Planes.pdf`](./docs/Planes.pdf) → Documento base de actividades.  
-- [`docs/Expresiones_Madrid.pdf`](./docs/Expresiones_Madrid.pdf) → Expresiones locales para enriquecer el tono.  
 
